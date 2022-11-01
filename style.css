@@ -1,0 +1,35 @@
+body{
+    font-family: 'Archivo', sans-serif;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.menu {
+    width: 280px;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+	left: 0;
+    position: fixed;
+    height: 100%;
+}
+
+.menu-header {
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+	margin: 12px 0 12px 0;
+}
+
+.content {
+    height: 100%;
+    margin: 0 0 0 215px;
+    top: 0;
+}
+
