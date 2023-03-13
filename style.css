@@ -12,7 +12,7 @@ body{
 }
 
 .menu {
-    width: 30%;
+    /*width: 30%;*/
     overflow: auto;
     margin-top: 40px;
     /*position: fixed;*/
@@ -43,18 +43,29 @@ li {
 }
 
 .content {
-    width: 70%;
-    overflow: auto;
-    /*position: fixed;*/
+    /*width: 70%;
+    overflow: auto;*/
     margin-top: 40px;
     margin-right: 0;
     height: 100vh;
-    
+}
+
+.container p.work-title {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .container p {
-    width: 400px;
+    width: 500px;
+    line-height: 1.6;
+}
 
+.container img {
+    width: 100%;
+}
+
+img#lwl {
+    width: 500px;
 }
 
 a:link {text-decoration: none;}
